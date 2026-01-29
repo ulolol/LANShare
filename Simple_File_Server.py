@@ -29,7 +29,7 @@ class CustomHandler(http.server.SimpleHTTPRequestHandler):
 
         list_dir.sort(key=lambda a: a.lower())
         r = []
-        displaypath = html.escape(os.path.basename(path) or 'Home Root')
+        displaypath = html.escape(os.path.basename(path) or 'LAN Share')
         
         r.append('<!DOCTYPE html><html lang="en"><head>')
         r.append('<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">')
