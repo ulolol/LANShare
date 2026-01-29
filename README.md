@@ -29,7 +29,7 @@ git clone https://github.com/ulolol/LANShare.git
 Run the server from the directory you want to share:
 
 ```bash
-python3 Simple_File_Server.py
+python3 LANShare.py
 ```
 
 The server will start and display:
@@ -44,7 +44,7 @@ Open the URL in any browser on your local network to access the file sharing int
 
 ## Configuration
 
-Edit the `PORT` variable in `Simple_File_Server.py` to change the listening port:
+Edit the `PORT` variable in `LANShare.py` to change the listening port:
 
 ```python
 PORT = 42069  # Change this to your preferred port
