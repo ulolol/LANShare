@@ -117,6 +117,9 @@ Default colors are defined as CSS variables:
 - Check available disk space
 - Try uploading a smaller file first
 
+**Not Accessible from other devices?**
+- On Linux, verify using `sudo ufw status`
+- Allow explicitly using `sudo ufw allow 42069`
 ## Requirements
 
 - Python 3.6 or higher
